@@ -8,8 +8,15 @@ return new class extends Migration
 {
     /**
      * Run the migrations.
+<<<<<<< HEAD
      */
     public function up(): void
+=======
+     *
+     * @return void
+     */
+    public function up()
+>>>>>>> df0b6d6d897b6edc88e590c585531fa2e222707a
     {
         Schema::create('users', function (Blueprint $table) {
             $table->id();
@@ -24,8 +31,15 @@ return new class extends Migration
 
     /**
      * Reverse the migrations.
+<<<<<<< HEAD
      */
     public function down(): void
+=======
+     *
+     * @return void
+     */
+    public function down()
+>>>>>>> df0b6d6d897b6edc88e590c585531fa2e222707a
     {
         Schema::dropIfExists('users');
     }
